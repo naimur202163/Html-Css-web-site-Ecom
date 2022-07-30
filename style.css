@@ -43,3 +43,28 @@ p {
 body {
   width: 100%;
 }
+
+/* Header Start */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: rgb(0, 0, 0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+#navbar li a {
+  text-decoration: none;
+}
